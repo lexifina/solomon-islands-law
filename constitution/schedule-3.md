@@ -1,5 +1,5 @@
 # Schedule 3: Application of laws
-1. Subject to this Constitution and to any Act of Parliament, the Acts of the Parliament of the United Kingdom of general application and in force on Ist January 1961 shall have effect as part of the law of Solomon Islands, with such changes to names, titles, offices, persons and institutions, and as to such other formal and non-substantive matters, as may be necessary to facilitate their application to the circumstances of Solomon Islands from time to time.
+1. Subject to this Constitution and to any Act of Parliament, the Acts of the Parliament of the United Kingdom of general application and in force on 1st January 1961 shall have effect as part of the law of Solomon Islands, with such changes to names, titles, offices, persons and institutions, and as to such other formal and non-substantive matters, as may be necessary to facilitate their application to the circumstances of Solomon Islands from time to time.
 
 2.—(1) Subject to this paragraph, the principles and rules of the common law and equity shall have effect as part of the law of Solomon Islands, save in so far as:—
 (a) they are inconsistent with this Constitution or any Act of Parliament;
