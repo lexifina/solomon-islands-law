@@ -1,8 +1,10 @@
-# Amnesty Act 2001 (No. 3 of 2001)
+# Amnesty Act 2001 (Act 3 of 2001)
 
-As passed by the National Parliament of Solomon Islands, from the PDF it publishes: https://www.parliament.gov.sb/business/acts/files/2001/The%20Amnesty%20Act%202001.pdf
+As in force on 2001-07-23 (the latest commencement day in the reprint's endnotes), from the reprint the Attorney-General publishes under the Legislation Act 2023: https://attorneygenerals.gov.sb/legislation-dashboard/download-info/amnesty-act-2001-no-3-of-2001_as-at-230701-2/ (as in force at 2001-07-23).
 
-Passed: 2001-04-02. Assented: 2001-05-23. In force: 2001-07-23 (the commencement day the Attorney-General's reprints give for it (endnotes, List of Legislation)).
+Acts listed in its endnotes:
+
+- Act No. 3 of 2001
 
 | File | Section |
 | --- | --- |
