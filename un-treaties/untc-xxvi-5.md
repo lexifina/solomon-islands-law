@@ -2,3 +2,4 @@
 UN Treaty Collection reference: XXVI-5.
 Depositary: Secretary-General of the United Nations.
 Signature: 1997-12-04.
+Ratification: 1999-01-26.
