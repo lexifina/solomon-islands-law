@@ -1,0 +1,5 @@
+# SCHEDULE 3
+
+Section 1 GLOSSARY
+
+Associated employer Two employers are to be treated as associated if one is a company of which the other (directly or indirectly) has control, or if both are companies of which a third person (directly or indirectly) has control. “Because of redundancy” See section 4. Business Includes a trade or profession and includes any activity carried on by a body of persons, whether corporate or unincorporate. Contract of employment Means a contract of service or apprenticeship, whether express or implied, and (if it is express) whether it is oral or in writing. Commissioner of Labour See the Labour Act. “Dismiss”, “dismissal” and “date of dismissal” See section 5. Employee Except in Part III, means an individual who has entered into or works under (or, where the employment has ceased, worked under) a contract of employment. Employer Except in Part III, in relation to an employee, means the person by whom the employee is (or, in a case where the employment has ceased, was) employed. Employment Except in Part III, means employment under a contract of employment. Renewal Includes extension Year A period of fifty-two weeks.
