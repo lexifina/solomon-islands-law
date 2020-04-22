@@ -1,0 +1,9 @@
+# Prohibition of Imports (Animal and Animal Products) Order 2020 (Legal Notice No. 42 of 2020)
+
+SUPPLEMENT to the Solomon Islands Gazette Wednesday, 22nd April, 2020 S.I. No. 36 [Legal Notice No. 42] BIOSECURITY ACT 2013 (No. 3 of 2013) PROHIBITION OF IMPORTS (ANIMAL AND ANIMAL PRODUCTS) ORDER 2020 I, Hon. Augustine Auga, Minister of Agriculture and Livestock, under section 9(l)(b) of the Biosecurity Act 2013, prohibit:
+
+(a) the importation of the animal listed in column A of the Table from the countries of origin listed in column C; and (b) the importation of any form of the animal products listed in column B of the table from the countries of origin listed in column C.
+
+TABLE Column A Animal Column B Animal Products Column C Countries of Origin A live pig Seamen from a pig Belgium Offal from a pig Slovakia Frozen pork Serbia in Europe Tinned pork China Dried pork Mongolia Vietnam Laos Cambodia Myanmar North Korea South Korea Philippines Papua new Guinea Indonesia Timor Leste Dated this twenty-second day of April 2020 HON. AUGUSTINE AUGA Minister for Agriculture and Livestock Honiara, Solomon Islands Printed under the authority of the Solomon Islands Government Printed by Pacific Printers Limited [Legal Notice No. 43] BIOSECURITY ACT 2013 (No. 3 of 2013) DECLARATION OF BIOSECURITY EMERGENCY AREA (SOLOMON ISLANDS) ORDER 2020 I, Hon. Augustine Auga, Minister for Agriculture and Livestock, under section 69(1) of the Biosecurity Act 2013, on the advice of the Director and having been satisfied that the Coconut Beetle, Oryctes rhinoceros (L) Guam Biotype is present, declare the whole of Solomon Islands a biosecurity emergency area for 6 months, commencing on the date of publication of this Order in the gazette.
+
+Dated this twenty-second day of April 2020 HON. AUGUSTINE AUGA Minister for Agriculture and Livestock
