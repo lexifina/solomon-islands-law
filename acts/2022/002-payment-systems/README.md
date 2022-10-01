@@ -1,8 +1,10 @@
-# Payment Systems Act 2022 (No. 2 of 2022)
+# Payment Systems Act 2022 (Act 2 of 2022)
 
-As passed by the National Parliament of Solomon Islands, from the PDF it publishes: https://www.parliament.gov.sb/business/acts/files/2022/Payment%20Systems%20Act%202022.pdf
+As in force on 2022-10-01 (the latest commencement day in the reprint's endnotes), from the reprint the Attorney-General publishes under the Legislation Act 2023: https://attorneygenerals.gov.sb/legislation-dashboard/download-info/payment-systems-act-2022-no-2-of-2022/ (as in force at 2022-10-01).
 
-Passed: 2022-07-27. Assented: 2022-09-09. In force: 2022-10-01 (the commencement day the Attorney-General's reprints give for it (endnotes, List of Legislation)).
+Acts listed in its endnotes:
+
+- Act No. 2 of 2022
 
 | File | Section |
 | --- | --- |
@@ -73,6 +75,12 @@ Passed: 2022-07-27. Assented: 2022-09-09. In force: 2022-10-01 (the commencement
 | [s-065](s-065.md) | 65. Conditions that apply to issuer of electronic money |
 | [s-066](s-066.md) | 66. Transparency of fees charged to consumers of payment services |
 | [s-067](s-067.md) | 67. Transparency of terms and conditions of payment service |
+| [s-068](s-068.md) | 68. Delegation by Central Bank |
+| [s-069](s-069.md) | 69. Directions by Minister to Central Bank |
 | [s-070](s-070.md) | 70. Offence of false and misleading conduct |
 | [s-071](s-071.md) | 71. Criminal liability of directors and officers |
 | [s-072](s-072.md) | 72. Administrative penalties |
+| [s-073](s-073.md) | 73. Regulations |
+| [s-074](s-074.md) | 74. Recovery by Central Bank of costs of discharging functions under this Act |
+| [s-075](s-075.md) | 75. Central Bank of Solomon Islands Act 2012 amended. |
+| [s-076](s-076.md) | 76. Transitional provisions |
