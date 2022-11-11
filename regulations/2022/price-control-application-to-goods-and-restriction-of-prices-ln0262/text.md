@@ -1,0 +1,7 @@
+# Price Control (Application to Goods and Restriction of Prices)(Amendment) (No. 18) Order 2022 (Legal Notice No. 262 of 2022)
+
+SUPPLEMENT to the Solomon Islands Gazette Friday 11th November, 2022 S.1. No. 217 [Legal Notice No. 262] PRICE CONTROL ACT (Cap. 64) PRICE CONTROL (APPLICATION TO GOODS AND RESTRICTION OF PRICES)(AMENDMENT) (NO. 18) ORDER 2022 In exercise of powers conferred upon me by sections 4 and 6 of the Price Control Act, I make this Order- 1 This Order may be cited as the Price Control (Application to Goods and Restriction of Prices) (Amendment)(No. 18) Order 2022 and shall be effective on the 1st of November 2022.
+
+2 The Price Control (Application to Goods and Restriction of Prices) Order 1987 (Legal Notice. 47 of 1987) is amended in Schedule 3 by revoking serial No. 13 (Petroleum Products) and substituting the following- “13 PETROLEUM PRODUCTS WHOLESALE RETAIL (Maximum price in S.I. cents per litre) (Maximum price in S.I. cents per litre) PETROLEUM PRODUCTS (a) Petroleum Motor Spirit - (PMS) 851.24 1063.9 (b) Distillate - (ADO) 1060.23 1304.3 (c) Kerosene - (KERO) 962.98 (Maximum percentage mark-up) - cost into store plus 15% for sales of packaged product - cost into store plus 20% for break bulk sales” Made at Honiara this ninth-day of November 2022.
+
+HON. FREDRICK KOLOGETO MINISTER FOR COMMERCE, INDUSTRIES, LABOUR AND IMMIGRATION Honiara, Solomon Islands Printed under the authority of the Solomon Islands Government Printed by Provincial Press
