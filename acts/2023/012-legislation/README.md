@@ -1,8 +1,10 @@
-# Legislation Act 2023 (No. 12 of 2023)
+# Legislation Act 2023 (Act 12 of 2023)
 
-As passed by the National Parliament of Solomon Islands, from the PDF it publishes: https://www.parliament.gov.sb/business/acts/files/2023/Legislation%20Act%202023.pdf
+As in force on 2024-02-05 (the latest commencement day in the reprint's endnotes), from the reprint the Attorney-General publishes under the Legislation Act 2023: https://attorneygenerals.gov.sb/legislation-dashboard/download-info/legislation-act-2023/ (as in force at 2024-02-05).
 
-Passed: 2023-11-14. Assented: 2023-12-08. In force: 2024-02-05 (the commencement day the Attorney-General's reprints give for it (endnotes, List of Legislation)).
+Acts listed in its endnotes:
+
+- Act No. 12 of 2023
 
 | File | Section |
 | --- | --- |
