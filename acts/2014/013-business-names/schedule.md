@@ -1,0 +1,3 @@
+# SCHEDULE
+
+(Section 30) APPEALABLE DECISIONS AND AFFECTED PERSONS Appealable decision Affected person Registration of business name to an entity (section 14(1)(a)) an entity in relation to whom there is a real risk of substantial detriment because of the registration of the name Refusal to register business name to entity (section 14(1)(b)) the entity Removal of business name from Register (section 24) the entity Restoration of business name to Register (section 25) an entity in relation to whom there is a real risk of substantial detriment because of the restoration Refusal to restore business name to Register (section 25) the applicant for restoration
