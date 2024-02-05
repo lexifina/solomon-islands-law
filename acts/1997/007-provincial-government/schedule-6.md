@@ -1,0 +1,3 @@
+# SCHEDULE 6
+
+(Section 34(4)) MATTERS TO BE INCLUDED IN FINANCIAL MANAGEMENT ORDINANCE The form of the annual estimates. The method of authorising and making issues from the Provincial Fund. The management and reallocation of funds within the amounts appropriated. The provision of funds in advance of appropriation. The use of bank accounts and the investment of moneys forming part of the Provincial Fund. The making of advances. The acceptance of deposits. The creation and control of special funds. The appointment and responsibilities of staff charged with accounting tasks. The making of rules and regulations relating to financial management and to the procurement, safekeeping, accounting for and disposal of stores.
