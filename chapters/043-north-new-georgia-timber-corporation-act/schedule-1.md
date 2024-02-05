@@ -1,0 +1,3 @@
+# FIRST SCHEDULE
+
+BOUNDARIES OF NEW GEORGIA LANDS (Section 2) The New Georgia lands comprise the customary land areas in the northern and western parts of the island of New Georgia known as: Gerasi Koroga Lupa Rodana which lands are more fully delineated on a plan of the whole lands and by a description of the Southern boundary of such lands marked “Plan of Lands and Description of Southern Boundary for First Schedule to North New Georgia Timber Corporation Act” to be deposited in the office of the Commissioner of Lands and, where there is any conflict between the plan of the lands and the description of the Southern boundary, the description shall prevail for all purposes.
