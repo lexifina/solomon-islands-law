@@ -1,0 +1,7 @@
+# Price Control (Application to Goods and Restriction of Prices) (Amendment) (No. 5) Order 2026 (Legal Notice No. 181 of 2026)
+
+SUPPLEMENT to the Solomon Islands Gazette Saturday 16th May 2026 S.I. No. 30 [Legal Notice No. 181] PRICE CONTROL ACT (Cap. 64) PRICE CONTROL (APPLICATION TO GOODS AND RESTRICTION OF PRICES) (AMENDMENT) (NO. 5) ORDER 2026 IN exercise of powers conferred upon me by sections 4 and 6 of the Price Control Act I make this Order- 1 This Order may be cited as the Price Control (Application to Goods and Restrictions of Prices) Amendment) (No. 5) Order 2026 and shall be effective on the 16 of May 2026.
+
+2 The Price Control (Application to Good and Restriction of Prices) Order 1987 (Legal Notice. 47 of 1987) is amended in Schedule 3 by revoking serial No. 13 (Petroleum Products) and substituting the following- “13 PETROLEUM PRODUCTS Wholesale Retail (Maximum price in (Maximum price in S.I cents per litres) S.I cents per litres) PETROLEUM PRODUCTS (a) Petroleum Motor Spirit - (PMS) 970.79 1118.60 (b) Distillate - (ADO) 1348.22 1524.33 (c) Kerosene - (KERO) 1337.28 (maximum percentage mark-up) - cost into store plus 7.5% for sales of packaged product.
+
+- cost into store plus 20% for break bulk sales.” Made at Honiara this sixteenth-day of May 2026 HON. HARRY DEGRUIT KUMA MINISTER FOR COMMERCE, INDUSTRY , LABOUR AND IMMIGRATION Honiara, Solomon Islands Printed under the authority of the Solomon Islands Government Printed by Provincial Press
