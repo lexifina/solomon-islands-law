@@ -1,0 +1,19 @@
+{
+ "country": "SB",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "The Constitution of Solomon Islands",
+   "url": "http://www.paclii.org/sb/legis/consol_act/c1978167/",
+   "versions": [
+    {
+     "from": "1978-07-07",
+     "units": 147,
+     "source_url": "https://web.archive.org/web/20230620190023id_/http://www.paclii.org/sb/legis/consol_act/c1978167/",
+     "sha256": "b5a2968aeb372644502be1b7968efff609e708f6a8f03d0c5034389bf08254b3"
+    }
+   ]
+  }
+ ]
+}
