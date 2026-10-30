@@ -1,0 +1,245 @@
+{
+ "country": "SB",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Constitution",
+   "title": "The Constitution of Solomon Islands (Schedule to S.I. 1978/783), as made",
+   "url": "https://www.legislation.gov.uk/uksi/1978/783/made",
+   "versions": [
+    {
+     "from": "1978-07-07",
+     "units": 149,
+     "source_url": "https://www.legislation.gov.uk/uksi/1978/783/pdfs/uksi_19780783_en.pdf",
+     "sha256": "2500328d3469fd632bcd6718c5cb64636204f07e37c44175bfa76217a178e208"
+    }
+   ]
+  },
+  {
+   "slug": "legal-system",
+   "short": "Legal system",
+   "title": "Solomon Islands: legal system facts (Wikidata)",
+   "url": "https://www.wikidata.org/wiki/Q685",
+   "versions": [
+    {
+     "from": "2026-10-30",
+     "units": 5,
+     "source_url": "https://www.wikidata.org/wiki/Q685",
+     "sha256": "wikidata-entity-Q685"
+    }
+   ]
+  },
+  {
+   "slug": "un-treaties",
+   "short": "UN treaties",
+   "title": "Treaty actions of Solomon Islands on multilateral treaties deposited with the UN Secretary-General (UN Treaty Collection; no treaty text)",
+   "url": "https://treaties.un.org/",
+   "versions": [
+    {
+     "from": "1981-06-19",
+     "units": 1,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1982-03-17",
+     "units": 5,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1982-12-10",
+     "units": 6,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1983-04-04",
+     "units": 7,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1989-08-09",
+     "units": 8,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1992-06-13",
+     "units": 10,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1993-06-17",
+     "units": 12,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1994-12-28",
+     "units": 12,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1995-02-08",
+     "units": 13,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1995-02-28",
+     "units": 14,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1995-04-10",
+     "units": 15,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1995-10-03",
+     "units": 15,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1997-06-23",
+     "units": 15,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1997-12-04",
+     "units": 16,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1998-09-29",
+     "units": 17,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1998-12-03",
+     "units": 18,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1999-01-26",
+     "units": 18,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "1999-04-16",
+     "units": 19,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2002-05-06",
+     "units": 21,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2003-03-13",
+     "units": 21,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2004-07-28",
+     "units": 22,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2008-09-23",
+     "units": 23,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2009-09-24",
+     "units": 29,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2010-05-17",
+     "units": 30,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2012-01-06",
+     "units": 31,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2016-04-22",
+     "units": 32,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2016-09-21",
+     "units": 32,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2021-06-03",
+     "units": 34,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2022-05-05",
+     "units": 34,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2022-08-25",
+     "units": 35,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2023-01-20",
+     "units": 35,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2023-06-22",
+     "units": 35,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2024-09-24",
+     "units": 36,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    },
+    {
+     "from": "2026-08-27",
+     "units": 37,
+     "source_url": "https://treaties.un.org/",
+     "sha256": "untc-status-pages-2026-10-29"
+    }
+   ]
+  }
+ ]
+}
