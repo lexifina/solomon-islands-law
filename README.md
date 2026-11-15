@@ -1,44 +1,87 @@
 # Solomon Islands: law history in git
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the Solomon Islands' national law, which global-law reads at `solomon-islands/national/acts/`.
+The law of Solomon Islands as a git history: one file per section, one commit per version on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every line; `git log` lists every change to a section; picking a date gives the text this record holds for that day.
 
-The law of Solomon Islands as a git history: one file per provision, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change; picking a date gives the text in force that day.
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the national law of Solomon Islands, which global-law reads at `solomon-islands/national/acts/`.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law).
+**What is in it now:** the Constitution of Solomon Islands as made, the Schedule to the Solomon Islands Independence Order 1978 (S.I. 1978/783), in its one version, in force from independence on 7 July 1978: the Preamble, 145 sections and Schedules 1 to 3. Beside it are 47 treaty actions of Solomon Islands (signatures, ratifications, accessions, successions and one acceptance) on 37 multilateral treaties deposited with the UN Secretary-General, without treaty text, and legal-system facts from Wikidata. The Constitution's later amendments, and every other Solomon Islands law, are not here yet. [`constitution/README.md`](constitution/README.md) lists every provision; [`data/laws.csv`](data/laws.csv) lists the law or treaty action behind each version.
 
-## What this repository holds
+Each provision is one file in `constitution/`: `sec-006.md` is section 6, protection from slavery and forced labour; `preamble.md` is the Preamble and `schedule-3.md` Schedule 3, the application of laws. Each treaty is one file in `un-treaties/`, named by its UN Treaty Collection reference (`untc-iv-11.md` is the Convention on the Rights of the Child).
 
-The Constitution of Solomon Islands as made in 1978: the Schedule to the Solomon Islands Independence Order 1978 (S.I. 1978/783), in English, the official language. It is a first build, not the current Constitution: later amendments are not applied. Beside it are two fact-only acts: legal-system facts from Wikidata (CC0) and the treaty actions of Solomon Islands from the UN Treaty Collection.
+The text is in English, the official language. legislation.gov.uk holds the Order only as an image-only scan, so the words were read by optical character recognition (OCR) and misreadings found were corrected by hand; no full proofread against the scan has been done, so some may remain.
 
-| Folder | Act | Versions | History |
-| --- | --- | ---: | --- |
-| `constitution/` | The Constitution of Solomon Islands (Schedule to S.I. 1978/783), as made: Preamble, sections 1 to 145 and Schedules 1 to 3 | 1 | As made, in effect 7 July 1978. Later amendments are not applied. |
-| `legal-system/` | Legal system facts from Wikidata | 1 | Facts as of 30 October 2026 |
-| `un-treaties/` | Treaty actions of Solomon Islands: signature, ratification, accession (UN Treaty Collection; no treaty text) | 34 | Each action on its own date |
+## Questions as git commands
 
-## Source
+| Question | Command |
+| --- | --- |
+| Every change to section 6 of the Constitution | `git log -p --word-diff -- constitution/sec-006.md` |
+| Which law wrote each line of section 6? | `git blame constitution/sec-006.md` |
+| Every version of section 6, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitution/sec-006.md` |
+| Section 6 on 1 January 1980 | `python tools/on.py 1980-01-01 constitution sec-006` |
 
-Constitution text: [legislation.gov.uk](https://www.legislation.gov.uk/uksi/1978/783/made), The National Archives: *The Solomon Islands Independence Order 1978* (S.I. 1978/783), as made, under the Open Government Licence v3.0. Retrieved 30 October 2026.
+**Outside git**, we also host this record publicly, for free:
 
-**The text was recovered by optical character recognition (OCR).** legislation.gov.uk holds this Order only as an image-only scan (82 pages, no text layer), so the words in `constitution/` were read from the scan with Tesseract 5.4 (English), then checked: unfamiliar words were compared with the scan, and sample pages were compared with the page images. A number of misreadings were corrected by hand (listed in `REPRODUCE.md`, under decisions), but a full word-by-word proofread has not been done, so some misreadings may remain. Where the text matters, read the scan at the source link above.
+- **[Ask Claude about Solomon Islands law](https://global-law.lexifina.com/v1/try_claude?country=solomon-islands)**: opens Claude with a first question ready.
+- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=solomon-islands)**: the same question in ChatGPT.
+- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=forced+labour&jurisdictions=solomon-islands)**: a search of Solomon Islands law for "forced labour", returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
 
-Facts: Wikidata (https://www.wikidata.org/wiki/Q685, CC0 1.0) and the UN Treaty Collection (https://treaties.un.org/; facts only, no treaty text), retrieved 30 October 2026.
+Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in English.
+
+**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+
+```sh
+git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
+python3 tools/countries.py add solomon-islands/national/acts
+python3 tools/law.py show 1980-01-01 solomon-islands/national/acts/constitution/sec-006.md
+```
+
+Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
 ## Dates
 
-The Constitution has one version, dated **7 July 1978**, the appointed day on which it came into effect (Order, sections 2(1) and 4(1)); the Order itself was made on 31 May 1978. The commit is credited to S.I. 1978/783. `legal-system` is dated by the retrieval date (30 October 2026) as the oldest version available, because Wikidata holds only a year for the state's inception; `un-treaties` is dated by the day of each treaty action.
+Each commit is dated at noon, Pacific/Guadalcanal, on the day the version took effect, and carries it in its `In-force:` trailer:
+
+- the Constitution's one version is dated 7 July 1978, the appointed day on which it came into effect (Order, sections 2(1) and 4(1)); its `Enacted:` trailer gives the day the Order was made (31 May 1978) and `Published:` 8 June 1978;
+- each treaty action is dated by the day the UN Treaty Collection gives for it, from 1981 to 2026;
+- the legal-system facts are dated 30 October 2026, the day they were retrieved, because Wikidata gives only a year for the state's inception.
+
+The Constitution's version is credited to the Order that made it (`S.I. 1978/783`), and tagged `constitution/1978-07-07` and `law/si-1978-783`; each treaty action is credited to itself (`Accession: …`), except the earliest, a 1981 succession, which opens the treaty record as its oldest version available, credited to the publisher.
 
 ## How it is checked
 
-Every version is read back from git on the day it took effect and on the day before (`tools/check_repo.py`) and must match `corpus.json`; results are in `REPRODUCE.md`.
+- `tools/check_repo.py` reads every version back from git on the day it took effect, and on the day before, and compares it, file by file, with the corpus it was built from (its sha256 is in [`data/corpus.sha256`](data/corpus.sha256)); every commit's trailers must parse.
+- `tools/build.py` writes the history from that corpus in one pass, and the same corpus always gives the same commit hashes. [`REPRODUCE.md`](REPRODUCE.md) gives the builder's hashes and the OCR corrections made by hand; it does not yet record a check run or a second build.
+- History is append-only: no merge commits, no rewriting, no commit dated in the future.
 
-## What "author" means
+## What it does not show
 
-The author of a commit is the law (or, for facts, the retrieval or the treaty action) that made the change, with an e-mail address that cannot exist (`<law key>@legislation.gov.uk.invalid`). The committer is always Lexifina.
+- **Amendments.** The Constitution has been amended since 1978; no amendment is applied, so this is not the text in force today.
+- **Any other Solomon Islands law.** No Act of Parliament, subsidiary legislation or court decision is here yet; the consolidated legislation is published only on sites this record does not use.
+- **Headings.** The marginal notes (section headings), the chapter and part headings and the arrangement of sections are left out; footnotes are kept at the end of their section.
+- **The Order itself.** Only its Schedule, the Constitution, is here, not the Order's own sections 1 to 14.
+- **Every treaty.** The treaty actions come from a selected set of UN Treaty Collection status pages, and no treaty text is copied.
 
-## Limits
+## Sources
 
-- Not complete and not current. Missing: every amendment since 1978 (the Constitution has been amended several times), the Independence Order's own sections 1 to 14, the marginal notes (section headings), the arrangement of sections, and the chapter and part headings. Footnotes inside the Constitution are kept at the end of the section they belong to.
-- The text is OCR output and may contain misreadings; where the scan reads oddly it is followed as printed (for example "to elect assemblies" in the Preamble).
-- Treaties come from the status pages of a selected set of UN Treaty Collection treaties, not every treaty.
-- Solomon Islands' own consolidated legislation is not here: it is published only on sites we do not use or cannot reach.
+| Source | Kind | Past versions | Notes |
+| --- | --- | --- | --- |
+| [legislation.gov.uk](https://www.legislation.gov.uk/uksi/1978/783/made) (The National Archives) | UK statutory instrument, as made: the Solomon Islands Independence Order 1978 | no, only as made | The Constitution is the Schedule to the Order; an image-only scan, read by OCR |
+| [UN Treaty Collection](https://treaties.un.org/) | Status of multilateral treaties deposited with the UN Secretary-General | each action on its own day | Facts only: the treaty, the action and its date |
+| [Wikidata](https://www.wikidata.org/wiki/Q685) | Legal-system facts | no, as retrieved on 30 October 2026 | Form of government, institutions, official languages |
+
+## Licence
+
+See [`LICENSE`](LICENSE). The text is taken from legislation.gov.uk and contains public sector information licensed under the Open Government Licence v3.0; the facts come from Wikidata (CC0 1.0) and the UN Treaty Collection, with no treaty text reproduced. Lexifina's own contributions (the history, commit messages, tables and tools) are dedicated to the public domain under CC0 1.0.
+
+No AI model wrote or translated legal text; the text was read from the scan by OCR (Tesseract). The scripts were written by an AI model, which also made the hand corrections of OCR misreadings that [`REPRODUCE.md`](REPRODUCE.md) describes.
+
+## More
+
+From [lexifina/global-law](https://github.com/lexifina/global-law):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
+- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
