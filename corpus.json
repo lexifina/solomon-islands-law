@@ -1,0 +1,26 @@
+{
+  "corpus": "sb/national/acts",
+  "name": "Solomon Islands law: the Constitution as made and the Acts of the National Parliament as passed",
+  "label": "Solomon Islands",
+  "language": "en",
+  "dates": {
+    "commit": "in-force",
+    "other_trailers": [
+      "In-force-basis",
+      "Source",
+      "Kind"
+    ],
+    "time": "12:00 Pacific/Guadalcanal (UTC+11)"
+  },
+  "in_force_trailer": "In-force",
+  "has_future_branch": false,
+  "author": "the Act (or Order) that made the text",
+  "citation": {
+    "file": "((?:acts/[0-9]{4}/[^/]+)|constitution)/(?:s|sec)-0*([0-9]+[a-z-]*)\\.md",
+    "cites": "(^|[^0-9])(section|s\\.?) ?{n}\\b"
+  },
+  "sources": [
+    "https://www.parliament.gov.sb/business/acts/",
+    "https://www.legislation.gov.uk/uksi/1978/783/made"
+  ]
+}
