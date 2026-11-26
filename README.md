@@ -9,7 +9,7 @@ The law of Solomon Islands as a git history: one file per section, one commit pe
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the national law of Solomon Islands, which global-law reads at `solomon-islands/national/acts/`.
 
-**What is in it now:** the Constitution of Solomon Islands as made, the Schedule to the Solomon Islands Independence Order 1978 (S.I. 1978/783), in its one version, in force from independence on 7 July 1978: the Preamble, 145 sections and Schedules 1 to 3. Beside it are 47 treaty actions of Solomon Islands (signatures, ratifications, accessions, successions and one acceptance) on 37 multilateral treaties deposited with the UN Secretary-General, without treaty text, and legal-system facts from Wikidata. The Constitution's later amendments, and every other Solomon Islands law, are not here yet. [`constitution/README.md`](constitution/README.md) lists every provision; [`data/laws.csv`](data/laws.csv) lists the law or treaty action behind each version.
+**What is in it now:** the Constitution as made (1978); Acts of the National Parliament as passed, from the Parliament's own PDFs, where the PDF has a text layer and the Act fixes its own commencement day (`acts/<year>/<NNN>-<slug>/`, see [`STRUCTURE.md`](STRUCTURE.md)); treaty actions; legal-system facts. [`constitution/README.md`](constitution/README.md) lists every provision of the Constitution.
 
 Each provision is one file in `constitution/`: `sec-006.md` is section 6, protection from slavery and forced labour; `preamble.md` is the Preamble and `schedule-3.md` Schedule 3, the application of laws. Each treaty is one file in `un-treaties/`, named by its UN Treaty Collection reference (`untc-iv-11.md` is the Convention on the Rights of the Child).
 
@@ -63,7 +63,7 @@ The Constitution's version is credited to the Order that made it (`S.I. 1978/783
 ## What it does not show
 
 - **Amendments.** The Constitution has been amended since 1978; no amendment is applied, so this is not the text in force today.
-- **Any other Solomon Islands law.** No Act of Parliament, subsidiary legislation or court decision is here yet; the consolidated legislation is published only on sites this record does not use.
+- **Most Acts, and every consolidation.** Acts are here only as passed, never consolidated. An Act is held back when its PDF is an image-only scan (no OCR is run) or when it commences on Gazette publication or on a day the Minister appoints, since the Gazette is not reachable to this record; most Acts are in one of these groups. Laws made before 1981 (the Penal Code, the Criminal Procedure Code, the Labour Act), subsidiary legislation and court decisions are not here.
 - **Headings.** The marginal notes (section headings), the chapter and part headings and the arrangement of sections are left out; footnotes are kept at the end of their section.
 - **The Order itself.** Only its Schedule, the Constitution, is here, not the Order's own sections 1 to 14.
 - **Every treaty.** The treaty actions come from a selected set of UN Treaty Collection status pages, and no treaty text is copied.
@@ -73,12 +73,13 @@ The Constitution's version is credited to the Order that made it (`S.I. 1978/783
 | Source | Kind | Past versions | Notes |
 | --- | --- | --- | --- |
 | [legislation.gov.uk](https://www.legislation.gov.uk/uksi/1978/783/made) (The National Archives) | UK statutory instrument, as made: the Solomon Islands Independence Order 1978 | no, only as made | The Constitution is the Schedule to the Order; an image-only scan, read by OCR |
+| [National Parliament of Solomon Islands](https://www.parliament.gov.sb/business/acts/) | Acts of Parliament as passed, 1981 to date (PDF) | no, as passed | Text from the PDF's own text layer; image-only scans are left out |
 | [UN Treaty Collection](https://treaties.un.org/) | Status of multilateral treaties deposited with the UN Secretary-General | each action on its own day | Facts only: the treaty, the action and its date |
 | [Wikidata](https://www.wikidata.org/wiki/Q685) | Legal-system facts | no, as retrieved on 30 October 2026 | Form of government, institutions, official languages |
 
 ## Licence
 
-See [`LICENSE`](LICENSE). The text is taken from legislation.gov.uk and contains public sector information licensed under the Open Government Licence v3.0; the facts come from Wikidata (CC0 1.0) and the UN Treaty Collection, with no treaty text reproduced. Lexifina's own contributions (the history, commit messages, tables and tools) are dedicated to the public domain under CC0 1.0.
+See [`LICENSE`](LICENSE). The Constitution's text is taken from legislation.gov.uk and contains public sector information licensed under the Open Government Licence v3.0; the Acts are the official texts the National Parliament publishes; the facts come from Wikidata (CC0 1.0) and the UN Treaty Collection, with no treaty text reproduced. Lexifina's own contributions (the history, commit messages, tables and tools) are dedicated to the public domain under CC0 1.0.
 
 No AI model wrote or translated legal text; the text was read from the scan by OCR (Tesseract). The scripts were written by an AI model, which also made the hand corrections of OCR misreadings that [`REPRODUCE.md`](REPRODUCE.md) describes.
 

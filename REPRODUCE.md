@@ -7,6 +7,7 @@ This file is written by the build on 2026-10-30, the day the source data was ret
 | Source | Address | Retrieved | Licence |
 | --- | --- | --- | --- |
 | legislation.gov.uk: The Solomon Islands Independence Order 1978 (as made), scanned PDF | <https://www.legislation.gov.uk/uksi/1978/783/pdfs/uksi_19780783_en.pdf> | 2026-10-30 | Open Government Licence v3.0 |
+| National Parliament of Solomon Islands: Acts as passed (PDF, text layer only) | <https://www.parliament.gov.sb/business/acts/> | 2026-11-26 | Official text; no licence stated |
 | Wikidata | <https://www.wikidata.org/wiki/Q685> | 2026-10-30 | CC0 1.0 |
 | UN Treaty Collection (MTDSG status pages) | <https://treaties.un.org/> | 2026-10-29 | Facts only (treaty action, date, depositary); no text copied |
 
