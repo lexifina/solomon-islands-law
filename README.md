@@ -9,11 +9,11 @@ The law of Solomon Islands as a git history: one file per section, one commit pe
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the national law of Solomon Islands, which global-law reads at `solomon-islands/national/acts/`.
 
-**What is in it now:** the Constitution as made (1978); Acts of the National Parliament as passed, from the Parliament's own PDFs, where the PDF has a text layer and the Act fixes its own commencement day (`acts/<year>/<NNN>-<slug>/`, see [`STRUCTURE.md`](STRUCTURE.md)); treaty actions; legal-system facts. [`constitution/README.md`](constitution/README.md) lists every provision of the Constitution.
+**What is in it now:** the Constitution, as made (1978) and as in force today; the Acts in force, among them the Penal Code, the Criminal Procedure Code, the Labour Act and the Companies Act 2009, as the Attorney-General reprints them (`chapters/<NNN>-<slug>/` for the Chapters of the 1996 Revised Edition, `acts/<year>/<NNN>-<slug>/` for later Acts); Acts of the National Parliament as passed, from the Parliament's own PDFs where the PDF has a text layer and an official source gives the day it commenced (see [`STRUCTURE.md`](STRUCTURE.md)); treaty actions; legal-system facts. [`constitution/README.md`](constitution/README.md) lists every provision of the Constitution.
 
 Each provision is one file in `constitution/`: `sec-006.md` is section 6, protection from slavery and forced labour; `preamble.md` is the Preamble and `schedule-3.md` Schedule 3, the application of laws. Each treaty is one file in `un-treaties/`, named by its UN Treaty Collection reference (`untc-iv-11.md` is the Convention on the Rights of the Child).
 
-The text is in English, the official language. legislation.gov.uk holds the Order only as an image-only scan, so the words were read by optical character recognition (OCR) and misreadings found were corrected by hand; no full proofread against the scan has been done, so some may remain.
+The text is in English, the official language. legislation.gov.uk holds the Order only as an image-only scan, so the words of the 1978 version were read by optical character recognition (OCR); misreadings found by comparing it with the Attorney-General's reprint were corrected by an appended correction commit, and some may remain. Every later version is the Attorney-General's own text.
 
 ## Questions as git commands
 
@@ -47,7 +47,8 @@ Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local M
 
 Each commit is dated at noon, Pacific/Guadalcanal, on the day the version took effect, and carries it in its `In-force:` trailer:
 
-- the Constitution's one version is dated 7 July 1978, the appointed day on which it came into effect (Order, sections 2(1) and 4(1)); its `Enacted:` trailer gives the day the Order was made (31 May 1978) and `Published:` 8 June 1978;
+- the Constitution's first version is dated 7 July 1978, the appointed day on which it came into effect (Order, sections 2(1) and 4(1)); its `Enacted:` trailer gives the day the Order was made (31 May 1978) and `Published:` 8 June 1978;
+- each reprint of an Act in force (`Kind: consolidation`) is dated on its "as in force at" day when its endnotes give that day as the commencement of one of the Acts they list, or on 1 March 1996 for an Act unchanged since the 1996 Revised Edition; an Act as passed that leaves its commencement to the Gazette or a notice is dated by the day the Attorney-General's endnotes or Annual Index to the Gazette give;
 - each treaty action is dated by the day the UN Treaty Collection gives for it, from 1981 to 2026;
 - the legal-system facts are dated 30 October 2026, the day they were retrieved, because Wikidata gives only a year for the state's inception.
 
@@ -62,8 +63,8 @@ The Constitution's version is credited to the Order that made it (`S.I. 1978/783
 
 ## What it does not show
 
-- **Amendments.** The Constitution has been amended since 1978; no amendment is applied, so this is not the text in force today.
-- **Most Acts, and every consolidation.** Acts are here only as passed, never consolidated. An Act is held back when its PDF is an image-only scan (no OCR is run) or when it commences on Gazette publication or on a day the Minister appoints, since the Gazette is not reachable to this record; most Acts are in one of these groups. Laws made before 1981 (the Penal Code, the Criminal Procedure Code, the Labour Act), subsidiary legislation and court decisions are not here.
+- **Every version in between.** An Act in force is here as made or passed (where that text is available) and as in force today; the versions in between, one per amending Act, are not reconstructed.
+- **Some Acts.** An Act as passed is held back when its PDF is an image-only scan (no OCR is run) or when no official source gives the day it commenced; a reprint is held back when the day it took its present form cannot be read from it. Repealed and spent Acts with no text layer, subsidiary legislation and court decisions are not here.
 - **Headings.** The marginal notes (section headings), the chapter and part headings and the arrangement of sections are left out; footnotes are kept at the end of their section.
 - **The Order itself.** Only its Schedule, the Constitution, is here, not the Order's own sections 1 to 14.
 - **Every treaty.** The treaty actions come from a selected set of UN Treaty Collection status pages, and no treaty text is copied.
@@ -74,12 +75,13 @@ The Constitution's version is credited to the Order that made it (`S.I. 1978/783
 | --- | --- | --- | --- |
 | [legislation.gov.uk](https://www.legislation.gov.uk/uksi/1978/783/made) (The National Archives) | UK statutory instrument, as made: the Solomon Islands Independence Order 1978 | no, only as made | The Constitution is the Schedule to the Order; an image-only scan, read by OCR |
 | [National Parliament of Solomon Islands](https://www.parliament.gov.sb/business/acts/) | Acts of Parliament as passed, 1981 to date (PDF) | no, as passed | Text from the PDF's own text layer; image-only scans are left out |
+| [Attorney-General's Chambers](https://attorneygenerals.gov.sb/legislation/legislation-portal/) | Digital Legislation Reprints of the Acts in force and of the Constitution, published under the Legislation Act 2023 (PDF); Annual Indexes to the Gazette and Legal Notices, 1996 to 2024 | no, as in force at the reprint's day | Text from the PDF's own text layer; the endnotes and the indexes give the commencement days |
 | [UN Treaty Collection](https://treaties.un.org/) | Status of multilateral treaties deposited with the UN Secretary-General | each action on its own day | Facts only: the treaty, the action and its date |
 | [Wikidata](https://www.wikidata.org/wiki/Q685) | Legal-system facts | no, as retrieved on 30 October 2026 | Form of government, institutions, official languages |
 
 ## Licence
 
-See [`LICENSE`](LICENSE). The Constitution's text is taken from legislation.gov.uk and contains public sector information licensed under the Open Government Licence v3.0; the Acts are the official texts the National Parliament publishes; the facts come from Wikidata (CC0 1.0) and the UN Treaty Collection, with no treaty text reproduced. Lexifina's own contributions (the history, commit messages, tables and tools) are dedicated to the public domain under CC0 1.0.
+See [`LICENSE`](LICENSE). The Constitution's text is taken from legislation.gov.uk and contains public sector information licensed under the Open Government Licence v3.0; the Acts are the official texts the National Parliament and the Attorney-General publish; the facts come from Wikidata (CC0 1.0) and the UN Treaty Collection, with no treaty text reproduced. Lexifina's own contributions (the history, commit messages, tables and tools) are dedicated to the public domain under CC0 1.0.
 
 No AI model wrote or translated legal text; the text was read from the scan by OCR (Tesseract). The scripts were written by an AI model, which also made the hand corrections of OCR misreadings that [`REPRODUCE.md`](REPRODUCE.md) describes.
 

@@ -11,6 +11,14 @@ at https://www.parliament.gov.sb/business/acts/ (retrieved from 26 November 2026
 unchanged from the PDFs' own text layer, with page numbers and running heads left out. Neither the National Parliament nor the
 Government of Solomon Islands endorses this repository.
 
+The reprints in constitution/, chapters/ and acts/ (commits with Kind: consolidation) are the Digital Legislation Reprints the
+Attorney-General of Solomon Islands publishes under the Legislation Act 2023 at
+https://attorneygenerals.gov.sb/legislation/legislation-portal/ (retrieved 27 November 2026). The site states no licence; the
+text is reproduced from the PDFs' own text layer, with running heads, page numbers, tables of provisions and endnotes left
+out. Commencement days also come from the Attorney-General's Annual Indexes to the Gazette and Legal Notices
+(https://attorneygenerals.gov.sb/solomon-islands-government-gazettes/). Neither the Attorney-General nor the Government of
+Solomon Islands endorses this repository.
+
 Facts in legal-system/ come from Wikidata (CC0 1.0 Universal). Facts in un-treaties/ (treaty names, actions and dates) come from the United Nations Treaty Collection; no treaty text is reproduced.
 
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
