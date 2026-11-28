@@ -19,6 +19,11 @@ out. Commencement days also come from the Attorney-General's Annual Indexes to t
 (https://attorneygenerals.gov.sb/solomon-islands-government-gazettes/). Neither the Attorney-General nor the Government of
 Solomon Islands endorses this repository.
 
+The provincial ordinances and Legal Notices in provincial-ordinances/ and regulations/ are the official texts the
+Attorney-General's Chambers publishes (Gazette supplements and provincial ordinances at https://attorneygenerals.gov.sb/) or, where a
+commit says `Source-status: secondary copy (FAOLEX)`, the copy held by FAOLEX (https://faolex.fao.org/), retrieved 27 November 2026; no
+licence is stated, and the text is reproduced from each PDF's own text layer. Neither the Government of Solomon Islands nor FAO endorses this repository.
+
 Facts in legal-system/ come from Wikidata (CC0 1.0 Universal). Facts in un-treaties/ (treaty names, actions and dates) come from the United Nations Treaty Collection; no treaty text is reproduced.
 
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
